@@ -1,0 +1,27 @@
+.cow {
+    border: 2px solid rgba(0, 47, 255, 0.267) ;
+}
+#holud{
+    color: yellow;
+    background-color: brown;
+}
+span{
+    color: rgb(238, 255, 0);
+    border: 1px solid black;
+    height: 200px;
+    width: 100px;
+    margin-top: 50px;
+    background-color: rgb(126, 161, 192);
+    /* display: none; */
+}
+.blog{
+    background-color: peru;
+    box-shadow: 10px 50px gray;
+    margin-bottom: 100px;
+    font-family: fantasy;
+
+}
+h2{
+    color: blue;
+    text-decoration: underline rebeccapurple;
+}

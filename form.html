@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="practice.html">Practice</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Fill up the form</h1>
+    <form action="">
+        <label for="name">Your Name <br>
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <br><br>
+        <label for="email">Your Email <br>
+            <input id="email" type="email" placeholder="Your Email">
+        </label>
+        <br><br>
+        <label for="phone">Your Phone <br>
+            <input id="phone" type="tel" placeholder="Your Phone">
+        </label>
+        <br>
+
+    <fieldset>
+        <legend>Pick One</legend>
+        <label for="vapa">
+            <input type="radio" name="pitha" id="vapa">Vapa
+        </label>
+        <label for="chitol">
+            <input type="radio" name="pitha" id="chitol">Chitol
+        </label>
+        <label for="puri">
+            <input type="radio" name="pitha" id="puri">Puri
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Select One or More</legend>
+        <label for="sorisha">
+            <input type="checkbox" name="vorta" id="sorisha">Sorisha
+        </label>
+        <label for="shidol">
+            <input type="checkbox" name="vorta" id="shidol">Shidol
+        </label>
+        <label for="dal">
+            <input type="checkbox" name="vorta" id="dal">Dal
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
